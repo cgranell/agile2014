@@ -48,5 +48,7 @@ treemap(treemap.df,
         title.legend="Acceptance status",
         position.legend = "right") # remove legend)
 
+# close jpeg
 dev.off()
+# restore settings
 par(opar) 
